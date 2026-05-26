@@ -129,6 +129,16 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   padding: 0.65rem 2rem;
 }
 .btn-submit:hover { background: #2d3748; }
+.btn-registration {
+  background: #fff;
+  color: var(--color-text-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.btn-registration:hover {
+  background: var(--color-accent-light);
+  color: var(--color-text-dark);
+}
 
 /* ===== Hero ===== */
 .hero {
@@ -340,6 +350,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   z-index: 2;
 }
 .registration-status { margin: 0; font-size: 1.05rem; color: var(--color-text); }
+.registration-actions { margin: 1.5rem 0 0; }
 .section-registration .section-title-accent,
 .section-registration .registration-status { color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.5); }
 
